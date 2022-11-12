@@ -1,0 +1,154 @@
+/*header-nav*/
+body{
+box-sizing: border-box;
+font-family: Montserrat, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: pink;
+    position: relative;
+    height: 100%;
+
+}
+.header-navbar_link{
+    font-weight: 700;
+    font-size: 24px;
+    color: gray;
+}
+.header-navbar{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+}
+.log-a-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    width: 40%;
+    justify-content: space-between;
+
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu_iteam{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 20px;
+    color: gray;
+}
+.nav-menu_link{
+    color: gray;
+}
+.nav-menu_iteam:hover{
+    color: #00A0C1;
+}
+
+.header-icon{
+    display: flex;
+}
+
+
+/*header container */
+
+.header-conteiner {
+  width: 73%;
+  margin: 0 auto;
+  margin-top: 115px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.header-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 270px;
+}
+.header-content__title {
+  font-size: 58px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #252B42;
+}
+.header-content__text {
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: gray;
+}
+.header-button{
+  display: flex;
+}
+
+.header-button__link {
+  display: block;
+  border-radius: 37px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: #00A0C1;
+  cursor: pointer;
+  line-height: 28px;
+}
+.btn-orange{
+  background-color: orange;
+  margin-right: 10px;
+  padding: 10px 36px;
+  color: white;
+}
+.btn-trn{
+  border: 1px solid #00A0C1;
+  padding: 10px 36px;
+}
+
+/*HADER CARDS*/
+
+.header-description {
+  display: flex;
+  position: absolute;
+  bottom: -20px;
+  column-gap: 30px;
+}
+
+.header-description-card {
+    width: 30%;
+      padding: 35px 20px 35px 40px;
+      background-color: #ffffff;
+      box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+.blue-card {
+  background-color: #00A0C1;
+  color: #ffffff;
+}
+.blue-card .description-card__text{
+    color: white;
+}
+.description-card__logo {
+  width: 48px;
+  height: 48px;
+}
+.description-card__title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #252B42;
+}
+.description-card__text {
+  width: 80%;
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
