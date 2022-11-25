@@ -1,0 +1,127 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.header{
+	background-image: url("../img/back.png");
+}
+
+.container{
+width: 100%;
+padding: 23px 36px;
+
+}
+.header-top{
+	display: flex;
+	justify-content: space-between;
+}
+.header_logo{
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: #252B42;
+}
+.header_icon{
+	display: flex;
+	column-gap: 24px;
+	align-items: center;
+}
+.header-nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 182px;
+}
+.header-nav_li{
+	padding-bottom: 30px;
+}
+.header-nav_li:hover{
+	color: #2B2828;
+}
+.header-nav_li:last-of-type{
+	padding-bottom: none;
+}
+.header-nav_link{
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 45px;
+	color: #737373;
+}
+.header-text{
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.header-text_title{
+	margin-bottom: 40px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 57px;
+	color: #252B42;
+}
+.header-text_disc{
+	margin-bottom: 40px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #737373;
+}
+.header-text_buttons{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 28px;
+}
+.header-text_button{
+	border-radius: 37px;
+	padding: 10px 36px;
+}
+.header-text_button.orange{
+	margin-bottom: 25px;
+	border: none;
+	background-color: #FFA62B;
+	color: white;
+}
+.header-text_button.transp{
+ 	background: none;
+ 	border: 1px solid #00A0C1;
+ 	color: #00A0C1;
+}
+.header-cards{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header-card{
+	margin-bottom: 30px;
+	max-width: 320px;
+	padding: 35px 40px;
+	background-color: white;
+}
+.header-card:last-of-type{
+	margin-bottom: none;
+}
+.header-card.blue{
+	background:  #00A0C1;
+	color: white !important;
+}
+/*нужно добавить белый фон на синюю карточку*/
+
+.header-card_img{
+	margin-bottom: 10px;
+}
+.header-card_title{
+	margin-bottom: 10px;
+	color: #252B42;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+}
+.header-card_disc{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #737373;
+}
