@@ -3,6 +3,7 @@ body{
 }
 .header{
 	background-image: url("../img/back.png");
+	padding-bottom: 200px;
 }
 
 .container{
@@ -124,4 +125,157 @@ padding: 23px 36px;
 	font-size: 14px;
 	line-height: 20px;
 	color: #737373;
+}
+
+/*приемущества */
+.block-advant{
+	padding-top: 98px;
+	padding-bottom: 70px;
+	background: #F3F3F3;
+}
+.advant-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.text-title-disc_title{
+	margin-bottom: 10px;
+	color: #252B42;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 57px;
+}
+.text-title-disc_disc{
+	margin-bottom: 75px;
+	color: #737373;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+}
+.advant-card{
+	background: white;
+	width: 238px;
+	hight: 238px;
+	margin-bottom: 30px;
+	padding: 30px;
+}
+.advant-card_num{
+	margin-bottom: 10px;
+	color: #252B42;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 57px;
+}
+.advant-card_disc{
+	color: #737373;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+/*advice*/
+.advice-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.block-advice{
+	padding-top: 98px;
+	padding-bottom: 70px;
+	background: #F3F3F3;
+}
+.advice-cards{
+	display: flex;
+	flex-direction: column;
+	column-gap: 30px;
+}
+.advice-card{
+	background: white;
+	width: 230px;
+	margin-bottom: 30px;
+}
+.advice-card: last-of-type{
+	margin-bottom: none;
+}
+.advice-card-text{
+	padding:  30px;
+}
+.advice-card_img{
+	width: 100%;
+}
+.advice-card_title{
+	color: #252B42;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+.advice-card_disc{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #737373;
+}
+/*block video */
+.block-video{
+	padding-top: 98px;
+	padding-bottom: 70px;
+}
+.block-video-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.block-video-content_video{
+	/*width: 333px;*/
+}
+.text-title-disc.left-end{
+	text-align: left;
+}
+.right-side_point{
+	margin-bottom: 30px;
+	text-align: left;
+}
+.right-side_point:last-of-type{
+	margin-bottom: none;
+}
+
+.right-side_point-name{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	color: #252B42;
+}
+.right-side_point-disc{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	color: #737373;
+}
+
+/*brands*/
+
+.block-brands{
+	padding-top: 98px;
+	padding-bottom: 70px;
+}
+.brands-contant{
+
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 60px;
+}
+.block-subscribe{
+	background: #252B42;
+}
+.subscribe-form{
+	background: #16697A;
 }
