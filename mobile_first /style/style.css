@@ -21,10 +21,14 @@ padding: 23px 36px;
 	line-height: 32px;
 	color: #252B42;
 }
-.header_icon{
+.header_icons{
 	display: flex;
 	column-gap: 24px;
 	align-items: center;
+	justify-content: center;
+}
+svg {
+	 fill: red;
 }
 .header-nav{
 	display: flex;
@@ -48,6 +52,9 @@ padding: 23px 36px;
 	font-size: 30px;
 	line-height: 45px;
 	color: #737373;
+}
+.header-nav_link:hover{
+	color: black;
 }
 .header-text{
 	margin-bottom: 80px;
@@ -85,10 +92,17 @@ padding: 23px 36px;
 	background-color: #FFA62B;
 	color: white;
 }
+.orange:hover{
+background-color: #B07016;
+}
 .header-text_button.transp{
  	background: none;
  	border: 1px solid #00A0C1;
  	color: #00A0C1;
+}
+.transp:hover{
+	background: #00A0C1;
+	color: #FFFFFF;
 }
 .header-cards{
 	display: flex;
@@ -154,13 +168,24 @@ padding: 23px 36px;
 	line-height: 20px;
 }
 .advant-card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background: white;
 	width: 238px;
 	hight: 238px;
 	margin-bottom: 30px;
 	padding: 30px;
 }
+
+.advant-card.blue{
+	background: #00A0C1;
+}
+.advant-card.blue  div{
+	color: white;
+}
 .advant-card_num{
+	margin-top: 10px;
 	margin-bottom: 10px;
 	color: #252B42;
 	font-weight: 700;
@@ -245,13 +270,39 @@ padding: 23px 36px;
 }
 
 .right-side_point-name{
+	padding-left: 52px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.1px;
 	color: #252B42;
 }
+.icon1{
+	position: relative;
+}
+.icon2{
+	position: relative;
+}
+.icon1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/before.png");
+}
+.icon2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/before_2.png");
+}
 .right-side_point-disc{
+	padding-left: 52px ;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 24px;
@@ -262,6 +313,7 @@ padding: 23px 36px;
 /*brands*/
 
 .block-brands{
+	background:  #FAFAFA;
 	padding-top: 98px;
 	padding-bottom: 70px;
 }
@@ -301,6 +353,10 @@ font-size: 14px;
 color: #ffffff;
 cursor: pointer;
 }
+
+.subscribe-button:hover{
+	background-color: #AF6909;
+}
 .form-input-and-button{
  display: flex;
 }
@@ -330,15 +386,27 @@ font-size: 14px;
 }
 
 .get-in-touch-card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background: white;
 	padding: 50px;
+}
+.card_img{
+	margin-bottom: 15px;
 }
 .card_email a{
 	text-decoration: none;
 	color: #252B42;
 }
 .get-in-touch-card.blue{
-	background: #252B42;
+	background:#252B42 !important;
+	padding: 90px 50px !important;
+}
+.get-in-touch-card.blue div{
+	color: white;
+}
+.get-in-touch-card.blue a{
 	color: white;
 }
 .card_title{
@@ -357,11 +425,19 @@ font-size: 14px;
 	padding: 10px 20px;
 
 }
+.card_button:hover{
+	background: #FFA62B;
+	color: white;
+}
 .card_button.white{
 	border: 1px solid #FFFFFF;
 	border-radius: 5px;
 	color:#FFFFFF ;
 	background: none;
+}
+.card_button.white:hover{
+	color: black ;
+	background: white;
 }
 
 /*consalting*/
@@ -385,6 +461,9 @@ line-height: 32px;
     border: none;
     color: white;
 
+}
+.consalting_button:hover{
+   background: #935E15;
 }
 .text-title-disc.small{
 padding: 20px 50px;
@@ -421,6 +500,9 @@ line-height: 24px;
 .company_link a{
 	text-decoration: none;
 	color: white;
+}
+.company_link a:hover{
+	color: gray;
 }
 .company_links{
 	display: flex;
