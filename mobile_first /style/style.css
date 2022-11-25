@@ -278,4 +278,152 @@ padding: 23px 36px;
 }
 .subscribe-form{
 	background: #16697A;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding-bottom: 10px;
+}
+.subscribe-form-hint{
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+letter-spacing: 0.1px;
+color: #FFFFFF;
+}
+
+.subscribe-button{
+width: 117px;
+background-color: #FFA62B;
+border: 1px solid #FFA62B;
+border-radius: 0px 5px 5px 0px;
+font-size: 14px;
+color: #ffffff;
+cursor: pointer;
+}
+.form-input-and-button{
+ display: flex;
+}
+.subscribe-form-input{
+width: calc(100% - 117px);
+padding: 15px 20px;
+background: #F9F9F9;
+border: 1px solid #E6E6E6;
+border-radius: 5px 0 0 5px;
+font-size: 14px;
+}
+
+.block-get-in-touch{
+	background: #F3F3F3;
+}
+.get-in-touch-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.get-in-touch-cards{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.get-in-touch-card{
+	background: white;
+	padding: 50px;
+}
+.card_email a{
+	text-decoration: none;
+	color: #252B42;
+}
+.get-in-touch-card.blue{
+	background: #252B42;
+	color: white;
+}
+.card_title{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #252B42;
+}
+.card_button{
+	border: 1px solid #FFA62B;
+	border-radius: 5px;
+	color:#FFA62B ;
+	background: none;
+	padding: 10px 20px;
+
+}
+.card_button.white{
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	color:#FFFFFF ;
+	background: none;
+}
+
+/*consalting*/
+.consalting-content{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: left;
+}
+
+.text-title-disc_title.small{
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+
+.consalting_button{
+	background: #FFA62B;
+    border-radius: 5px;
+    padding: 15px 40px;
+    border: none;
+    color: white;
+
+}
+.text-title-disc.small{
+padding: 20px 50px;
+}
+
+.text-title-disc_disc.small{
+	margin-bottom: 50px;
+}
+
+
+/*footer*/
+.footer-contacts{
+	background: #16697A;
+	color: white;
+}
+.contacts-content{
+	display: flex;
+	flex-direction: column;
+	padding-left: 35px;
+
+}
+.company_title{
+margin-bottom: 20px;
+margin-top: 30px;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+}
+.company_link{
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+}
+.company_link a{
+	text-decoration: none;
+	color: white;
+}
+.company_links{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
