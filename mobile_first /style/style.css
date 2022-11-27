@@ -24,8 +24,9 @@ padding: 23px 36px;
 .header_icons{
 	display: flex;
 	column-gap: 24px;
-	align-items: center;
 	justify-content: center;
+	order: 1;
+	align-items: flex-start;
 }
 svg {
 	 fill: red;
@@ -81,10 +82,16 @@ svg {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 28px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
 }
 .header-text_button{
 	border-radius: 37px;
 	padding: 10px 36px;
+	display: block;
 }
 .header-text_button.orange{
 	margin-bottom: 25px;
@@ -245,6 +252,11 @@ background-color: #B07016;
 	color: #737373;
 }
 /*block video */
+video{
+	background-image: url('./img/video.png');
+	/*poster="img/video.png"*/
+	/*poster:  url("img/video.png");*/
+}
 .block-video{
 	padding-top: 98px;
 	padding-bottom: 70px;
@@ -318,7 +330,6 @@ background-color: #B07016;
 	padding-bottom: 70px;
 }
 .brands-contant{
-
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -328,12 +339,14 @@ background-color: #B07016;
 .block-subscribe{
 	background: #252B42;
 }
-.subscribe-form{
-	background: #16697A;
+.subscribe-form_1{
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
 	padding-bottom: 10px;
+}
+.subscribe-blue_row{
+	display: none;
 }
 .subscribe-form-hint{
 font-weight: 700;
@@ -502,7 +515,7 @@ line-height: 24px;
 	color: white;
 }
 .company_link a:hover{
-	color: gray;
+	color: brown;
 }
 .company_links{
 	display: flex;
